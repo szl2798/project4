@@ -21,4 +21,6 @@ public class Transaction{
         transaction += transactionId + "\t" + playerId + "\t" + bAmount + "\t(\t" + chips100d + "\t" + chips25d +"\t"
             + chips5d +"\t" + chips1d;
     }
+    
+    public abstract void print();
 }
