@@ -4,7 +4,8 @@ public class Transaction{
     private String bType;
     private int chips1d , chips5d, chips25d, chips100d;
     private int transactionId;
-    
+    // comment
+    private int ff;
     public Transaction(int id, int bitAmount, int player, int chips1, int chips5, int chips25, int chips100, String bitType){
         transactionId = id;
         bAmount = bitAmount;
